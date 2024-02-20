@@ -29,3 +29,30 @@ if (COMPARAR O numeroDez e a stringDez) {
 } else {
   console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
+```
+## Desafio 2/7
+
+[...] O programa deve pedir para o usuário responder 3 perguntas:
+
+- Qual o seu nome?
+- Quantos anos você tem?
+- Qual linguagem de programação você está estudando?
+
+À medida que as perguntas forem sendo feitas, a pessoa que estiver usando o programa deve responder cada uma delas.
+
+No final, o sistema vai exibir a mensagem:
+
+_"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"_
+
+Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
+
+### Exercício Opcional:
+[...] Você vai complementar o código para que, depois de exibir a mensagem anterior, o programa pergunte:
+
+_Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para NÃO._
+
+E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
+
+_1 > Muito bom! Continue estudando e você terá muito sucesso._
+
+_2 > Ahh que pena... Já tentou aprender outras linguagens?_
